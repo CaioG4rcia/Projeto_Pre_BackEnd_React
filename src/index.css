@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(51,69,162);
+  background: linear-gradient(19deg, rgba(51,69,162,1) 0%, rgba(149,73,238,1) 64%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: "Quicksand", serif;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  transition: 0.1s;
+}
+a:hover {
+  color: rgb(210, 0, 196);
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  padding: 0.6em 1.73em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(19deg, rgba(51,69,162,1) 0%, rgba(149,73,238,1) 64%);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+input:autofill {
+  background-color: #f0f8ff; /* Escolha a cor desejada */
+  color: #000; /* Cor do texto, se necessário */
+  border: 2px solid #4caf50; /* Cor da borda, se necessário */
+}
+
+/* Para garantir que o estilo seja aplicado também quando o campo perde o foco */
+input:-webkit-autofill {
+  background-color: #f0f8ff;
+  color: #000;
+  border: 2px solid #4caf14;
+}
+img{
+    width: 123px;
+    position: absolute;
+    transform: translateY(-230px);
+}

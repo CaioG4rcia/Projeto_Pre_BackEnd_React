@@ -1,0 +1,73 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.formRegister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 530PX;
+    background: rgba(255, 255, 255, 0.056);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 23px;
+
+    & input{
+        width: 323px;
+        padding: 11px;
+        background-color: white;
+        border: none;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #323232;
+        padding-left: 44px;
+        outline: none;
+    }
+}
+.wrapper::before{
+    position: absolute;
+    color: black;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+}
+.wrapper.user::before {
+    content: url('../../assets/sombra-de-usuario-masculino (2).png');
+    transform: translateY(3.2px);
+}
+.wrapper.email::before {
+    content: url('../../assets/e-mail.png');
+    transform: translateY(3.2px);
+}
+.wrapper.password::before {
+    content: url('../../assets/cadeado.png');
+    transform: translateY(3.2px);
+}
+.wrapper.confirmPassword::before {
+    content: url('../../assets/cadeado.png');
+    transform: translateY(3.2px);
+}
+h1{
+    color: #ffffff;
+}
+button{
+    transform: translateY(15px);
+}
+a{
+    transform: translateY(50px);
+    color: white;
+}
