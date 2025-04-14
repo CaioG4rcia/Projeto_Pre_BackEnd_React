@@ -1,4 +1,5 @@
 PROJETO REACT COM LOGIN E REGISTER PAGE, E COM CONEXÃO COM BACK-END CRIADA!
+(back-end não presente no comit)
 
 # React + Vite
 
